@@ -1,0 +1,131 @@
+.box-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-weight: 100;
+}
+
+.box-wrap {
+    margin: 15px 15px !important;
+
+    border-radius: 9px !important;
+    margin-bottom: 2em;
+    box-shadow: 0px -10px 30px rgb(255 255 255 / 80%), 0px 0px 24px rgb(0 0 0 / 20%);
+
+    background-color: #ffffff;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.card-wrap {
+    margin: 15px 15px !important;
+    cursor: pointer;
+
+    border-radius: 9px !important;
+    margin-bottom: 2em;
+    box-shadow: 0px -10px 30px rgb(255 255 255 / 80%), 0px 0px 24px rgb(0 0 0 / 20%);
+
+    background-color: #ffffff;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.large-wrap {
+    margin: 15px 15px !important;
+    cursor: pointer;
+
+    border-radius: 9px !important;
+    margin-bottom: 2em;
+    box-shadow: 0px -10px 30px rgb(255 255 255 / 80%), 0px 0px 24px rgb(0 0 0 / 20%);
+
+    background-color: #ffffff;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.box-header {
+    width: 100%;
+    height: 5rem;
+    object-fit: cover;
+
+    margin-top: 3rem;
+
+    font-size: 3rem;
+    color: #999 !important;
+
+    background-color: transparent;
+}
+
+.box-icon {
+    margin-bottom: 3rem;
+    max-width:64px;
+    max-height:64px;
+    width:auto;
+    height:auto;
+}
+
+.box-title {
+    font-weight: bold;
+    color: #000;
+    font-size: 28px !important;
+    line-height: 24px;
+}
+
+.exhibition-title{
+    font-weight: bold;
+    color: #000;
+    font-size: 15px !important;
+    line-height: 20px;
+}
+
+.box-text {
+    color: #4b5052;
+    font-size: 20px !important;
+    line-height: 1.75em;
+    margin-top: 1em;
+    font-weight: 400
+}
+
+.card-text {
+    font-weight: bold;
+    margin-left: 0;
+    color: #000;
+    font-size: 18px !important;
+    line-height: 24px;
+}
+
+@media (min-width: 576px) {
+    .box-wrap {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .card-wrap {
+        flex: 0 0 17%;
+        max-width: 20%;
+    }
+
+    .large-wrap {
+        flex: 0 0 27%;
+        max-width: 27%;
+    }
+}
+
+.inline-label {
+    display: flex !important;
+    justify-content: space-between;
+}
